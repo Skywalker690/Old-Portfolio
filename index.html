@@ -1,0 +1,235 @@
+
+<!--Sanjo's Portfolio Website-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sanjo's Portfolio</title>
+        <link rel="icon" type="image/png" href="./Assets/favicon-32x32.png">
+        <link rel="icon" type="image/x-icon" href="./Assets/favicon.png">
+
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <link rel="stylesheet" href='style.css'>
+        
+    </head>
+    <body>
+        
+        <header class="header">
+            
+            <a href="#" class="logo">Portfolio</a>
+            <nav class="navbar" id="myLinks">
+                <a href="#Home" style="--i:1" class="active" >Home</a>
+                <a href="#About" style="--i:2">About</a>
+                <a href="#Skills" style="--i:3">Skills</a>
+                <!--<a href="#Projects" style="--i:4">Projects</a> -->
+                <a href="#Contact" style="--i:5">Contact</a>
+            </nav>
+        </header>
+
+
+        <section class="home" id="Home">
+            <div id="particles-js"></div>
+            <div class="home-content">
+                <h3>Hey, It's Me</h3>
+                <h1>Sanjo K Siby</h1>
+                <h4 style="--i:6">I'm into <span class="text"></span></h4>
+                
+                <div class="img">
+                    <img src="./Assets/hero" class="responsive" draggable="false">
+                </div>
+        
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/sanjo-k-siby/" style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Skywalker690" style="--i:8" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/sanjo_k_siby/" style="--i:9" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="mailto:sanjoksiby0@email.com" style="--i:10" target="_blank"><i class='bx bxl-gmail'></i></a>
+                </div>
+                <a  style="--i:13" class="btn-box" target="_blank">Download Resume</a>
+            </div>
+        </section>
+        
+
+
+        <section>
+            <div class="about reveal" id="About">
+                <div class="about-img" style="visibility: hidden;">
+                    <img src="" class="abt-res">
+                </div>
+                <div class="about-text reveal">
+                    <h2>About <span>Me</span></h2>
+                    <br>
+                    <p>I'm Sanjo K Siby, a first-year Computer Science and Engineering student passionate 
+                        about technology and innovation. I love building projects, competing in coding challenges,
+                         and exploring new ideas. With a strong problem-solving mindset, I embrace challenges and 
+                         continuously refine my skills. Collaboration and creativity drive me to develop impactful 
+                         solutions. I'm eager to apply my knowledge, learn from experiences, and contribute to meaningful
+                          projects. Let’s connect and create something amazing together!
+                        <br>
+                        <br>
+                        <a  style="--i:11" class="abtbtn-box" >Download Resume</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="Skills">
+            <h1 class="subtitle reveal">My <span>Skills</span></h1>
+            
+            <!--Frontend -->
+            <center>
+            <div class="cards reveal">
+                <div class="titles">
+                    <h1>Frontend</h1>
+                </div>
+                <div class="des">
+                    <div class="techs">
+                        <img alt="HTML logo" class="skill-icon" src=".\Assets\html-5.png">
+                        <span>
+                        HTML
+                        </span>
+                    </div>
+                    <div class="techs">
+                        <img alt="CSS logo" class="skill-icon" src=".\Assets\css-3.png"/>
+                        <span>
+                        CSS
+                        </span>
+                    </div>
+                    <div class="techs">
+                        <img alt="React Js logo" class="skill-icon" src=".\Assets\react.png" width="24"/>
+                        <span>React Js</span>
+                    </div>
+                    <div class="techs">
+                        <img alt="Node Js logo" class="skill-icon" src=".\Assets\js.png"/>
+                        <span>
+                        Javascript
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Backend -->
+            <div class="cards reveal">
+                <div class="titles">
+                    <h1>Backend</h1>
+                </div>
+                <div class="des">
+                    <div class="techs">
+                        <img alt="C logo" class="skill-icon" src=".\Assets\cpro.png"/>
+                        <span>C Programming</span>
+                    </div>
+                   
+                    <div class="techs">
+                        <img alt="Python logo" class="skill-icon" src=".\Assets\python.png"/>
+                        <span>Python</span>
+                    </div>
+                    <div class="techs">
+                        <img alt="Java logo" class="skill-icon" src=".\Assets\java.png"/>
+                        <span>Java</span>
+                    </div>
+                </div>
+            </div>
+                    
+            <!-- Backend -->
+            <div class="cards reveal">
+                <div class="titles">
+                    <h1>Database</h1>
+                </div>
+                <div class="des">
+                    <div class="techs">
+                        <img alt="My SQL logo" class="skill-icon" height="24" src=".\Assets\mysql.png"/>
+                        <span>
+                        My SQL
+                        </span>
+                    </div>
+                    <div class="techs">
+                        <img alt="MongoDB logo" class="skill-icon" height="24" src=".\Assets\mongo.png"/>
+                        <span>
+                        MongoDB
+                        </span>
+                    </div>
+                    <div class="techs">
+                        <img alt="firebase logo" class="skill-icon" height="24" src=".\Assets\fire.png"/>
+                        <span>
+                        MongoDB
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Others--> 
+            <div class="cards reveal">
+                <div class="titles">
+                    <h1>Others</h1>
+                </div>
+                <div class="des">
+                    
+                    <div class="techs">
+                        <img alt="Git logo" class="skill-icon" src=".\Assets\git.png"/>
+                        <span>
+                        Git
+                        </span>
+                    </div>
+                    <div class="techs">
+                        <img alt="GitHub logo" class="skill-icon" src=".\Assets\github.png"/>
+                        <span>
+                        GitHub
+                        </span>
+                    </div>
+                    <div class="techs">
+                        <img alt="VS Code logo" class="skill-icon" src=".\Assets\vscode.png"/>
+                        <span>
+                        VS Code
+                        </span>
+                    </div>
+
+                    <div class="techs">
+                        <img alt="MS Office logo" class="skill-icon" src=".\Assets\ms.jpeg"/>
+                        <span>
+                        MS Office
+                        </span>
+                    </div>
+                    
+                   
+                </div>
+            </div></center>
+        </section>
+
+
+
+        <!--   Contact   -->
+        <section class="contacts" id="Contact">
+            <div class="contact-text reveal">
+                <h2>Contact <span>Me</span></h2>
+                <center><h4>Get in Touch</h4>
+                <div class="contact-list">
+                    <li><i class='bx bxl-gmail'></i>sanjoksiby0@gmail.com</li>
+                    <li><i class='bx bxs-location-plus' ></i>Kottayam, Kerala, India</li>
+                    
+                </div>
+                <div class="contact-icons">
+                    <a href="https://www.linkedin.com/in/sanjo-k-siby/" style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Skywalker690" style="--i:8" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/sanjo_k_siby/" style="--i:9" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                </center>
+                <div class="last-text">
+                    <p>Developed by Sanjo &copy; 2025</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i> </a>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="index.js"></script>
+
+    </body>
+</html>
